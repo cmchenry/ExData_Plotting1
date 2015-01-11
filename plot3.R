@@ -1,3 +1,4 @@
+source("download.R")
 ## Read data file
 fileName <- "household_power_consumption.txt"
 powerDf <- read.csv(fileName, sep = ";", na.strings="?")
