@@ -57,6 +57,5 @@ plot(x=filteredPowerDf$DateTime,
      ylab="Global_reactive_power", 
      xaxs="r")
 
-## Export to a png file
 par(op)
 dev.off()
